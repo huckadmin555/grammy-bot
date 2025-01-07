@@ -1,0 +1,33 @@
+/* bot.command(['hello', 'hi', 'hi_bot'], async (ctx) => {
+    await ctx.reply('Привет как поживаешь ? 😊')
+}) */
+
+/* bot.on('msg').filter((ctx) => {
+    return ctx.from.id === 255666990
+}, async (ctx) => {
+    await ctx.reply('Здравствуйте, Владислав!')
+}) */
+
+/* bot.on('::url', async (ctx) => {
+    await ctx.reply('Получил ссылку')
+}) */
+
+/* bot.on(['::url', ':media'], async (ctx) => {
+    await ctx.reply('Получил ссылку')
+}) */
+
+/* bot.on('message', async (ctx) => {
+    await ctx.reply('Надо подумать...')
+}) */
+
+/* bot.on('msg', async (ctx) => {
+    console.log(ctx.msg);
+}) */
+
+/* bot.command('share', async (ctx) => {
+    const shareKeyboard = new Keyboard().requestLocation('Геолокация').requestContact('Контакт').requestPoll('Опрос').placeholder('Браток че какие контакты, данные есть ?').resized().oneTime()
+
+    await ctx.reply('чем хочешь поделиться ?', {
+        reply_markup: shareKeyboard
+    })
+}); */
